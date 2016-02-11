@@ -35,12 +35,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dataset.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/dataset/Dataset.scala">
+      <file leaf-file-name="TreeClassifierTest.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassifierTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23968042">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.6831683">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <folding>
+                <element signature="e#34#90#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,10 +59,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/purogurammingu/trees/TreeClassificationTest.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/trees/TreeClassification.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassificationTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/dataset/DatasetTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/trees/TreeClassification.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/dataset/Dataset.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/trees/TreeClassifier.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassifierTest.scala" />
       </list>
     </option>
   </component>
@@ -254,6 +258,10 @@
               <option name="myItemId" value="trees" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TreeClassifier.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -284,10 +292,6 @@
               <option name="myItemId" value="dataset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dataset.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -308,7 +312,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
   </component>
   <component name="RecentsManager">
@@ -319,7 +323,7 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.DatasetTest.Should choose the feature with the best information gain">
+  <component name="RunManager" selected="ScalaTest.TreeClassifierTest.Should classify">
     <configuration default="false" name="TreeClassificationTest.Should return proper entropy" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ml-in-action" />
@@ -375,6 +379,21 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="Should choose the feature with the best information gain" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TreeClassifierTest.Should classify" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ml-in-action" />
+      <setting name="path" value="com.purogurammingu.trees.TreeClassifierTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Should classify" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -620,18 +639,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.TreeClassificationTest.Should return proper entropy" />
       <item index="1" class="java.lang.String" itemvalue="ScalaTest.TreeClassificationTest" />
       <item index="2" class="java.lang.String" itemvalue="ScalaTest.DatasetTest" />
       <item index="3" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should choose the feature with the best information gain" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.TreeClassifierTest.Should classify" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should choose the feature with the best information gain" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.DatasetTest" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.TreeClassificationTest" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.TreeClassificationTest.Should return proper entropy" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.TreeClassifierTest.Should classify" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should choose the feature with the best information gain" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.DatasetTest" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.TreeClassificationTest" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.TreeClassificationTest.Should return proper entropy" />
       </list>
     </recent_temporary>
   </component>
@@ -688,20 +709,11 @@
       <option name="number" value="Default" />
       <updated>1454741851743</updated>
       <workItem from="1454741853083" duration="1860000" />
-      <workItem from="1454744185919" duration="11513000" />
+      <workItem from="1454744185919" duration="14944000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatasetTest_Should_choose_the_feature_with_the_best_information_gain - 2016.02.06 at 18h 22m 16s.xml">
-      <configuration name="DatasetTest.Should choose the feature with the best information gain" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_choose_the_feature_with_the_best_information_gain - 2016.02.06 at 18h 22m 48s.xml">
-      <configuration name="DatasetTest.Should choose the feature with the best information gain" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_choose_the_feature_with_the_best_information_gain - 2016.02.06 at 18h 23m 56s.xml">
-      <configuration name="DatasetTest.Should choose the feature with the best information gain" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="DatasetTest_Should_choose_the_feature_with_the_best_information_gain - 2016.02.06 at 18h 25m 21s.xml">
       <configuration name="DatasetTest.Should choose the feature with the best information gain" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -723,9 +735,18 @@
     <history-entry file="DatasetTest_Should_choose_the_feature_with_the_best_information_gain - 2016.02.06 at 18h 29m 09s.xml">
       <configuration name="DatasetTest.Should choose the feature with the best information gain" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TreeClassifierTest_Should_classify - 2016.02.11 at 21h 22m 42s.xml">
+      <configuration name="TreeClassifierTest.Should classify" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TreeClassifierTest_Should_classify - 2016.02.11 at 21h 23m 32s.xml">
+      <configuration name="TreeClassifierTest.Should classify" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TreeClassifierTest_Should_classify - 2016.02.11 at 21h 23m 55s.xml">
+      <configuration name="TreeClassifierTest.Should classify" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13373000" />
+    <option name="totallyTimeSpent" value="16804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -738,7 +759,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -775,17 +796,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassificationTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <marker date="1454745648000" expanded="true" signature="65:107" placeholder="/**...*/" />
-            <marker date="1454745648000" expanded="true" signature="154:158" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar!/scala/package.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33288947">
@@ -911,6 +921,215 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47270307">
           <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
+          <folding>
+            <marker date="1428689527000" expanded="false" signature="0:215" placeholder="/.../" />
+            <marker date="1428689527000" expanded="false" signature="243:320" placeholder="..." />
+            <marker date="1428689527000" expanded="true" signature="322:4305" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="4338:4397" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="4425:4554" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="4618:4779" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="4845:5327" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="5366:5377" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="5443:5449" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="5455:5835" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="5874:5885" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="5951:5957" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="5963:6451" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="6490:6501" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="6567:6573" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="6579:7177" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="7217:7228" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="7295:7301" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="7307:7794" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="7834:7845" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="7912:7918" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="7924:8484" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="8524:8535" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="8602:8608" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="8614:8965" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="9015:9026" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="9053:9059" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="9065:9520" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="9570:9581" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="9608:9614" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="9620:10293" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="10332:10343" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="10409:10415" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="10421:11079" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="11118:11129" placeholder=" { " />
+            <marker date="1428689527000" expanded="true" signature="11195:11201" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="11207:11957" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="11998:12009" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="12077:12083" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="12089:12815" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="12856:13228" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="12969:13222" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="13235:14032" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="14072:14083" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="14109:14115" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="14121:15201" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="15263:15345" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="15351:16297" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="16337:16348" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="16415:16421" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="16427:17139" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="17180:17191" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="17259:17265" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="17271:18015" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="18055:18066" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="18133:18139" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="18145:21171" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="21223:21310" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="21316:26134" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="26184:26269" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="26275:27161" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="27199:28518" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="27510:27608" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="27809:28169" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="28243:28474" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="28524:29406" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="29446:30784" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="29769:29867" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="30073:30433" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="30507:30739" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="30845:30918" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="30924:31975" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="32009:32020" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="32090:32096" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="32102:32405" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="32451:32695" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="32701:33004" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="33053:33295" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="33301:33638" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="33689:33986" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="33722:33850" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="33992:34329" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="34383:34678" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="34417:34545" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="34684:34991" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="35042:35208" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="35214:35521" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="35575:36105" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="35714:35897" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="36111:36395" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="36440:36581" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="36587:36871" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="36918:37054" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="37060:37344" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="37389:37530" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="37536:37820" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="37867:38003" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="38009:38287" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="38329:38467" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="38473:38751" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="38795:38927" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="38933:39241" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="39287:39429" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="39435:41138" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="41184:41372" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="41378:42500" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="42549:42738" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="42744:44647" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="44693:44758" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="44764:45528" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="45576:45587" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="45617:45623" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="45629:46193" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="46226:46237" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="46261:46267" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="46273:46835" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="46870:46881" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="46905:46911" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="46917:47676" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="47713:47724" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="47758:47764" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="47770:48532" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="48571:48582" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="48616:48622" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="48628:49002" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="49042:49053" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="49077:49083" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="49089:49461" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="49504:49515" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="49539:49545" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="49786:50432" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="50479:50792" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="50798:51445" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="51495:51812" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="51818:52191" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="52231:52242" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="52266:52272" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="52278:52651" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="52694:52705" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="52729:52735" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="52741:53389" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="53436:53749" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="53755:54403" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="54453:54770" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="54776:55744" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="55784:56757" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="56429:56582" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="56763:57727" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="57765:58738" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="58411:58569" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="58744:59349" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="59391:59402" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="59458:59464" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="59470:60077" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="60117:60128" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="60185:60191" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="60197:61036" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="61076:61087" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="61113:61119" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="61125:61906" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="61946:61957" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="61983:61989" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="61995:63388" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="63428:63439" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="63465:63471" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="63477:64258" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="64309:64320" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="64350:64356" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="64362:65659" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="65700:65711" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="65738:65744" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="65750:66786" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="false" signature="66827:66838" placeholder=" { " />
+            <marker date="1428689527000" expanded="false" signature="66865:66871" placeholder=" }" />
+            <marker date="1428689527000" expanded="true" signature="66877:67622" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="67688:68065" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="68071:68814" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="68877:69230" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="69236:69706" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="69750:70107" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="70113:70587" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="70632:71007" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="71013:72606" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="72674:75145" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="73312:73474" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="75151:76669" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="76735:79203" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="77386:77548" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="79209:80009" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="80052:80333" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="80339:81137" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="81178:81452" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="81458:82262" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="82307:82657" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="82663:83465" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="83508:83845" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="83851:85212" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="85271:88680" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="87319:87568" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="88247:88359" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="88686:90043" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="90100:91210" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="90110:90359" placeholder="//..." />
+            <marker date="1428689527000" expanded="true" signature="91371:91448" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="91486:91803" placeholder="{...}" />
+            <marker date="1428689527000" expanded="true" signature="91809:91886" placeholder="/**...*/" />
+            <marker date="1428689527000" expanded="true" signature="91923:92214" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,28 +1138,6 @@
         <state vertical-scroll-proportion="0.17821783">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/trees/TreeClassification.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11881188">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1454745648000" expanded="true" signature="34:76" placeholder="/**...*/" />
-            <marker date="1454745648000" expanded="true" signature="103:107" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassificationTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11881188">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding>
-            <marker date="1454745648000" expanded="true" signature="65:107" placeholder="/**...*/" />
-            <marker date="1454745648000" expanded="true" signature="154:158" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,10 +1488,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/dataset/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55925435">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <marker date="1455193219000" expanded="true" signature="36:78" placeholder="/**...*/" />
+            <marker date="1455193219000" expanded="true" signature="140:1729" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="287:373" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="391:521" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="431:517" placeholder="(...)" />
+            <marker date="1455193219000" expanded="true" signature="578:804" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="595:800" placeholder="(...)" />
+            <marker date="1455193219000" expanded="true" signature="674:794" placeholder="(...)" />
+            <marker date="1455193219000" expanded="true" signature="856:1035" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="1062:1554" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="1098:1547" placeholder="(...)" />
+            <marker date="1455193219000" expanded="true" signature="1192:1368" placeholder="(...)" />
+            <marker date="1455193219000" expanded="true" signature="1228:1360" placeholder="..." />
+            <marker date="1455193219000" expanded="true" signature="1462:1506" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="1512:1541" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="1746:1841" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="1793:1839" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/trees/TreeClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19973369">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1455193219000" expanded="true" signature="77:119" placeholder="/**...*/" />
+            <marker date="1455193219000" expanded="true" signature="166:269" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="311:800" placeholder="{...}" />
+            <marker date="1455193219000" expanded="true" signature="357:504" placeholder="..." />
+            <marker date="1455193219000" expanded="true" signature="368:504" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/dataset/DatasetTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7029703">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.8002663">
+          <caret line="62" column="5" selection-start-line="54" selection-start-column="11" selection-end-line="62" selection-end-column="5" />
           <folding>
             <marker date="1454750330000" expanded="true" signature="67:109" placeholder="/**...*/" />
             <marker date="1454750330000" expanded="true" signature="145:1802" placeholder="{...}" />
@@ -1318,11 +1555,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/dataset/Dataset.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassifierTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23968042">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6831683">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="e#34#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

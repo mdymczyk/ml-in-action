@@ -7,6 +7,10 @@ case class Dataset[T](
   observations: Seq[Observation[T]]
 ) {
 
+  def uniqueClass = observations.groupBy(_.label).head._1
+
+  def uniqueClasses = observations.groupBy(_.label).size
+
   def classProbabilities = {
     observations.groupBy(_.label).mapValues(_.size.toDouble / observations.size)
   }
@@ -22,9 +26,15 @@ case class Dataset[T](
       observations.
         filter(_.features(feature) == value).
         map(observation =>
-          new Observation[T](remove(observation.features, feature), observation.label)
+          new Observation[T](Dataset.remove(observation.features, feature), observation.label)
         )
     )
+  }
+
+  def bestSplit: (Int, Map[Double, Dataset[T]]) = {
+    val bestFeature = bestSplitFeature
+    val featureVals = featureValues(bestFeature)
+    (bestFeature, featureVals.map(value => (value, slice(bestFeature, value))).toMap)
   }
 
   def bestSplitFeature = {
@@ -44,12 +54,14 @@ case class Dataset[T](
 
   private def features = observations.head.features.indices
 
-  private def remove(vec: Vector[Double], id: Int) = {
+  private def featureValues(feature: Int): Set[Double] = observations.map(_.features(feature)).distinct.toSet
+
+}
+
+object Dataset {
+  def remove(vec: Vector[Double], id: Int) = {
     (vec take id) ++ (vec drop (id + 1))
   }
-
-  private def featureValues(feature: Int) = observations.map(_.features(feature)).distinct.toSet
-
 }
 
 case class Observation[T](
