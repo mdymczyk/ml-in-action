@@ -24,4 +24,13 @@ class DatasetTest extends FunSuite {
     assertResult(pAbsv)(0.6666666666666666)
   }
 
+  test("Should classify documents") {
+    val training = Dataset.loadVectorized
+    val (p0, p1, pAbs) = NaiveBayes.train(training)
+    val classified1 = NaiveBayes.classify(Dataset.words2Vec(Set("love", "my", "dalmation")), p0, p1,pAbs)
+    assertResult(0)(classified1)
+    val classified2 = NaiveBayes.classify(Dataset.words2Vec(Set("stupid", "garbage")), p0, p1,pAbs)
+    assertResult(1)(classified2)
+
+  }
 }

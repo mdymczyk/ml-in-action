@@ -60,4 +60,12 @@ object NaiveBayes {
     (p0Num.map(x => math.log(x / p0Denom)), p1Num.map(x => math.log(x / p1Denom)), pAbusive)
   }
 
+  def classify(toClassify: Vector[Int], p0Vec: Seq[Double], p1Vec: Seq[Double], pClass1: Double): Int = {
+    val p1 = toClassify.zip(p1Vec).map{ case (occ, prob) => occ * prob + math.log(pClass1) }.sum
+    val p0 = toClassify.zip(p0Vec).map{ case (occ, prob) => occ * prob + math.log(1.0 - pClass1) }.sum
+    if (p1 > p0) {
+      return 1
+    }
+    0
+  }
 }
