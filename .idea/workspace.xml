@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f151347e-becb-4719-a8db-c7026fc70954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" />
     </list>
     <ignored path="ml-in-action.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +42,8 @@
       <file leaf-file-name="Dataset.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="266">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -68,8 +70,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/dataset/Dataset.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/trees/TreeClassifier.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassifierTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" />
       </list>
     </option>
   </component>
@@ -787,20 +789,11 @@
       <workItem from="1455661073825" duration="587000" />
       <workItem from="1455661682529" duration="1088000" />
       <workItem from="1456021773122" duration="1465000" />
-      <workItem from="1456551769837" duration="1910000" />
+      <workItem from="1456551769837" duration="2889000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatasetTest_Should_choose_the_feature_with_the_best_information_gain - 2016.02.06 at 18h 29m 01s.xml">
-      <configuration name="DatasetTest.Should choose the feature with the best information gain" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_choose_the_feature_with_the_best_information_gain - 2016.02.06 at 18h 29m 09s.xml">
-      <configuration name="DatasetTest.Should choose the feature with the best information gain" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_create_vector_out_of_words - 2016.02.12 at 00h 50m 27s.xml">
-      <configuration name="DatasetTest.Should create vector out of words" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="DatasetTest_Should_create_vector_out_of_words - 2016.02.12 at 00h 51m 02s.xml">
       <configuration name="DatasetTest.Should create vector out of words" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -808,6 +801,15 @@
       <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 36m 18s.xml">
+      <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 44m 47s.xml">
+      <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 45m 23s.xml">
+      <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 46m 09s.xml">
       <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="TreeClassifierTest_Should_classify - 2016.02.11 at 21h 22m 42s.xml">
@@ -824,7 +826,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33233000" />
+    <option name="totallyTimeSpent" value="34212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1022,23 +1024,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1456554974000" expanded="true" signature="65:108" placeholder="/**...*/" />
-            <marker date="1456554974000" expanded="true" signature="144:787" placeholder="{...}" />
-            <marker date="1456554974000" expanded="true" signature="191:407" placeholder="(...)" />
-            <marker date="1456554974000" expanded="true" signature="473:784" placeholder="(...)" />
-            <marker date="1456554974000" expanded="true" signature="517:651" placeholder="(...)" />
-            <marker date="1456554974000" expanded="true" signature="521:650" placeholder="(...)" />
+            <marker date="1456555565000" expanded="true" signature="65:108" placeholder="/**...*/" />
+            <marker date="1456555565000" expanded="true" signature="144:919" placeholder="{...}" />
+            <marker date="1456555565000" expanded="true" signature="191:407" placeholder="(...)" />
+            <marker date="1456555565000" expanded="true" signature="473:916" placeholder="(...)" />
+            <marker date="1456555565000" expanded="true" signature="517:651" placeholder="(...)" />
+            <marker date="1456555565000" expanded="true" signature="521:650" placeholder="(...)" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="266">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding />
         </state>
       </provider>

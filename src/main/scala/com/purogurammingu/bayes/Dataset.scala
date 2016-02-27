@@ -41,14 +41,19 @@ object NaiveBayes {
     val pAbusive = data.map(_.abusive).sum / dataSize.toDouble
 
     val abusive = data.filter(_.abusive == 1).map(_.words)
-    val p1Num = abusive.transpose.map(_.sum)
-    val p1Denom = abusive.foldLeft(0.0){
+    val p1Num = abusive.transpose.map(_.sum).map(_ + 1)
+    /**
+      * If I understand correctly we are starting our denominators at 2 here and not 1 because of Laplace smoothing.
+      * Out alpha is 1 and our d is 2 since our observations are either 0 or 1 so 2 possibilities.
+      * Correct me if I'm wrong.
+      */
+    val p1Denom = abusive.foldLeft(2.0){
       case (acc, vec) => acc + vec.sum
     }
 
     val nonAbusive = data.filter(_.abusive == 0).map(_.words)
-    val p0Num = nonAbusive.transpose.map(_.sum)
-    val p0Denom = nonAbusive.foldLeft(0.0){
+    val p0Num = nonAbusive.transpose.map(_.sum).map(_ + 1)
+    val p0Denom = nonAbusive.foldLeft(2.0){
       case (acc, vec) => acc + vec.sum
     }
 

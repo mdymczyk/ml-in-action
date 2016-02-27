@@ -19,8 +19,8 @@ class DatasetTest extends FunSuite {
       PostingVector(Vector(1,0,0,0), 0)
     ))
 
-    assertResult(p0)(Vector(1,0,0,0))
-    assertResult(p1)(Vector(0.4,0.2,0.2,0.2))
+    assertResult(p0)(Vector(0.6666666666666666,0.3333333333333333,0.3333333333333333,0.3333333333333333))
+    assertResult(p1)(Vector(0.42857142857142855, 0.2857142857142857, 0.2857142857142857, 0.2857142857142857))
     assertResult(pAbsv)(0.6666666666666666)
   }
 
