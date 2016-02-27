@@ -1,0 +1,58 @@
+package com.purogurammingu.bayes
+
+/**
+  * Created by mateusz on 2/12/16.
+  */
+object Dataset {
+
+  def load = Seq[Posting](
+    new Posting("my dog has flea problems help please".split(" ").toSeq, 0),
+    new Posting("maybe not take him to dog park stupid".split(" ").toSeq, 1),
+    new Posting("my dalmation is so cute I love him".split(" ").toSeq, 0),
+    new Posting("stop posting stupid worthless garbage".split(" ").toSeq, 1),
+    new Posting("mr licks ate my steak how to stop him".split(" ").toSeq, 0),
+    new Posting("quit buying worthless dog food stupid".split(" ").toSeq, 1)
+  )
+
+  def vocabulary(dataset: Seq[Posting]) = dataset.flatMap(_.text).distinct.toList
+
+  val defaultVocab = vocabulary(load)
+
+  def words2Vec(vocabulary: List[String], set: Set[String]): Vector[Int] =
+    vocabulary.map(word => if (set.contains(word)) 1 else 0).toVector
+
+  def words2Vec(set: Set[String]): Vector[Int] = words2Vec(defaultVocab, set)
+
+  def loadVectorized = load.map(posting => new PostingVector(words2Vec(posting.text.toSet), posting.abusive))
+}
+
+case class Posting(text: Seq[String], abusive: Int)
+
+case class PostingVector(words: Vector[Int], abusive: Int)
+
+object NaiveBayes {
+
+  def train(data: Seq[PostingVector]) = {
+    if (data.isEmpty) throw new IllegalArgumentException("Training data cannot be empty.")
+
+    val dataSize = data.size
+    val words = data.head.words.size
+
+    val pAbusive = data.map(_.abusive).sum / dataSize.toDouble
+
+    val abusive = data.filter(_.abusive == 1).map(_.words)
+    val p1Num = abusive.transpose.map(_.sum)
+    val p1Denom = abusive.foldLeft(0.0){
+      case (acc, vec) => acc + vec.sum
+    }
+
+    val nonAbusive = data.filter(_.abusive == 0).map(_.words)
+    val p0Num = nonAbusive.transpose.map(_.sum)
+    val p0Denom = nonAbusive.foldLeft(0.0){
+      case (acc, vec) => acc + vec.sum
+    }
+
+    (p0Num.map(_ / p0Denom), p1Num.map(_ / p1Denom), pAbusive)
+  }
+
+}
