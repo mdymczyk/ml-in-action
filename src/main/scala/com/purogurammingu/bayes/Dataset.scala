@@ -57,7 +57,7 @@ object NaiveBayes {
       case (acc, vec) => acc + vec.sum
     }
 
-    (p0Num.map(_ / p0Denom), p1Num.map(_ / p1Denom), pAbusive)
+    (p0Num.map(x => math.log(x / p0Denom)), p1Num.map(x => math.log(x / p1Denom)), pAbusive)
   }
 
 }
