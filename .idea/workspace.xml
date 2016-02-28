@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f151347e-becb-4719-a8db-c7026fc70954" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/nlp/Parser.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/nlp/ParserTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ml-in-action.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dataset.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala">
+      <file leaf-file-name="Parser.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/nlp/Parser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="112" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -71,6 +72,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassifierTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/nlp/Parser.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/nlp/ParserTest.scala" />
       </list>
     </option>
   </component>
@@ -210,6 +213,32 @@
               <option name="myItemId" value="purogurammingu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purogurammingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dataset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -315,6 +344,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="nlp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purogurammingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bayes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -349,6 +408,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.purogurammingu.nlp" />
       <recent name="com.purogurammingu.bayes" />
       <recent name="com.purogurammingu.trees" />
     </key>
@@ -356,22 +416,7 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.DatasetTest">
-    <configuration default="false" name="TreeClassifierTest.Should classify" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ml-in-action" />
-      <setting name="path" value="com.purogurammingu.trees.TreeClassifierTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Should classify" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ParserTest.Should return parsed tokens.">
     <configuration default="false" name="DatasetTest.Should create vector out of words" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ml-in-action" />
@@ -428,6 +473,21 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParserTest.Should return parsed tokens." type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ml-in-action" />
+      <setting name="path" value="com.purogurammingu.nlp.ParserTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Should return parsed tokens." />
+      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
@@ -711,19 +771,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.TreeClassifierTest.Should classify" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should create vector out of words" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should generate probabilities for each word per class" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should classify documents" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.DatasetTest" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should create vector out of words" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should generate probabilities for each word per class" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should classify documents" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.DatasetTest" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ParserTest.Should return parsed tokens." />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.DatasetTest" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should classify documents" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should generate probabilities for each word per class" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should create vector out of words" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.TreeClassifierTest.Should classify" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ParserTest.Should return parsed tokens." />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.DatasetTest" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should classify documents" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should generate probabilities for each word per class" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.DatasetTest.Should create vector out of words" />
       </list>
     </recent_temporary>
   </component>
@@ -788,7 +848,7 @@
       <workItem from="1455661073825" duration="587000" />
       <workItem from="1455661682529" duration="1088000" />
       <workItem from="1456021773122" duration="1465000" />
-      <workItem from="1456551769837" duration="5002000" />
+      <workItem from="1456551769837" duration="5677000" />
     </task>
     <servers />
   </component>
@@ -798,18 +858,6 @@
     </history-entry>
     <history-entry file="DatasetTest_Should_classify_documents - 2016.02.27 at 16h 18m 24s.xml">
       <configuration name="DatasetTest.Should classify documents" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 35m 57s.xml">
-      <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 36m 18s.xml">
-      <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 44m 47s.xml">
-      <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 45m 23s.xml">
-      <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 15h 46m 09s.xml">
       <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
@@ -823,9 +871,21 @@
     <history-entry file="DatasetTest_Should_generate_probabilities_for_each_word_per_class - 2016.02.27 at 16h 05m 37s.xml">
       <configuration name="DatasetTest.Should generate probabilities for each word per class" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ParserTest_Should_return_parsed_tokens_ - 2016.02.28 at 23h 29m 15s.xml">
+      <configuration name="ParserTest.Should return parsed tokens." configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParserTest_Should_return_parsed_tokens_ - 2016.02.28 at 23h 32m 52s.xml">
+      <configuration name="ParserTest.Should return parsed tokens." configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParserTest_Should_return_parsed_tokens_ - 2016.02.28 at 23h 33m 16s.xml">
+      <configuration name="ParserTest.Should return parsed tokens." configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParserTest_Should_return_parsed_tokens_ - 2016.02.28 at 23h 33m 58s.xml">
+      <configuration name="ParserTest.Should return parsed tokens." configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36325000" />
+    <option name="totallyTimeSpent" value="37000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -838,7 +898,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26640624" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -867,7 +927,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -879,7 +941,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1456669166000" expanded="true" signature="34:77" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="93:1036" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="109:589" placeholder="..." />
+            <marker date="1456669166000" expanded="true" signature="121:589" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="1169:2571" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1212:2212" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1556:1817" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="1857:1903" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2068:2114" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2318:2569" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="2537:2559" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,7 +961,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1456669166000" expanded="true" signature="34:77" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="93:1036" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="109:589" placeholder="..." />
+            <marker date="1456669166000" expanded="true" signature="121:589" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="1169:2571" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1212:2212" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1556:1817" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="1857:1903" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2068:2114" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2318:2569" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="2537:2559" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -895,7 +981,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1456669166000" expanded="true" signature="34:77" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="93:1036" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="109:589" placeholder="..." />
+            <marker date="1456669166000" expanded="true" signature="121:589" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="1169:2571" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1212:2212" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1556:1817" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="1857:1903" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2068:2114" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2318:2569" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="2537:2559" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,7 +1001,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="32" />
-          <folding />
+          <folding>
+            <marker date="1456669166000" expanded="true" signature="34:77" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="93:1036" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="109:589" placeholder="..." />
+            <marker date="1456669166000" expanded="true" signature="121:589" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="1169:2571" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1212:2212" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1556:1817" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="1857:1903" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2068:2114" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2318:2569" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="2537:2559" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -911,7 +1021,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
+          <folding>
+            <marker date="1456669166000" expanded="true" signature="34:77" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="93:1036" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="109:589" placeholder="..." />
+            <marker date="1456669166000" expanded="true" signature="121:589" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="1169:2571" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1212:2212" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1556:1817" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="1857:1903" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2068:2114" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2318:2569" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="2537:2559" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +1041,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
+          <folding>
+            <marker date="1456669166000" expanded="true" signature="34:77" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="93:1036" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="109:589" placeholder="..." />
+            <marker date="1456669166000" expanded="true" signature="121:589" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="1169:2571" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1212:2212" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1556:1817" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="1857:1903" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2068:2114" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2318:2569" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="2537:2559" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,6 +1175,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1456669166000" expanded="true" signature="34:77" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="93:1036" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="109:589" placeholder="..." />
+            <marker date="1456669166000" expanded="true" signature="121:589" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="1169:2571" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1212:2212" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="1556:1817" placeholder="/**...*/" />
+            <marker date="1456669166000" expanded="true" signature="1857:1903" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2068:2114" placeholder="(...)" />
+            <marker date="1456669166000" expanded="true" signature="2318:2569" placeholder="{...}" />
+            <marker date="1456669166000" expanded="true" signature="2537:2559" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/nlp/ParserTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <marker date="1456670034000" expanded="true" signature="75:118" placeholder="/**...*/" />
+            <marker date="1456670034000" expanded="true" signature="167:522" placeholder="{...}" />
+            <marker date="1456670034000" expanded="true" signature="209:519" placeholder="(...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/nlp/Parser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="112" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
           <folding />
         </state>
       </provider>
