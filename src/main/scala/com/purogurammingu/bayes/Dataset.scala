@@ -18,12 +18,12 @@ object Dataset {
 
   val defaultVocab = vocabulary(load)
 
-  def words2Vec(vocabulary: List[String], set: Set[String]): Vector[Int] =
-    vocabulary.map(word => if (set.contains(word)) 1 else 0).toVector
+  def words2Vec(vocabulary: List[String], seq: Seq[String]): Vector[Int] =
+    vocabulary.map(word => seq.count(_.equals(word))).toVector
 
-  def words2Vec(set: Set[String]): Vector[Int] = words2Vec(defaultVocab, set)
+  def words2Vec(seq: Seq[String]): Vector[Int] = words2Vec(defaultVocab, seq)
 
-  def loadVectorized = load.map(posting => new PostingVector(words2Vec(posting.text.toSet), posting.abusive))
+  def loadVectorized = load.map(posting => new PostingVector(words2Vec(posting.text), posting.abusive))
 }
 
 case class Posting(text: Seq[String], abusive: Int)

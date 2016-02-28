@@ -8,7 +8,7 @@ import org.scalatest.FunSuite
 class DatasetTest extends FunSuite {
 
   test("Should create vector out of words") {
-    val vec = Dataset.words2Vec("my dog has flea problems help please".split(" ").toSet)
+    val vec = Dataset.words2Vec("my dog has flea problems help please".split(" ").toSeq)
     assert(vec == Vector(1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
   }
 
@@ -27,9 +27,9 @@ class DatasetTest extends FunSuite {
   test("Should classify documents") {
     val training = Dataset.loadVectorized
     val (p0, p1, pAbs) = NaiveBayes.train(training)
-    val classified1 = NaiveBayes.classify(Dataset.words2Vec(Set("love", "my", "dalmation")), p0, p1,pAbs)
+    val classified1 = NaiveBayes.classify(Dataset.words2Vec(Seq("love", "my", "dalmation")), p0, p1,pAbs)
     assertResult(0)(classified1)
-    val classified2 = NaiveBayes.classify(Dataset.words2Vec(Set("stupid", "garbage")), p0, p1,pAbs)
+    val classified2 = NaiveBayes.classify(Dataset.words2Vec(Seq("stupid", "garbage")), p0, p1,pAbs)
     assertResult(1)(classified2)
 
   }
