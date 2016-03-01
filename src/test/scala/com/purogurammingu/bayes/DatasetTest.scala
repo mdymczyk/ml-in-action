@@ -48,7 +48,7 @@ class DatasetTest extends FunSuite {
       }).flatten
     val vocab = Dataset.vocabulary(training)
 
-    val range = Random.shuffle(1 to 50).take(10)
+    val range = Random.shuffle(1 to 50).take(10).toSet
     val test = training.zipWithIndex.filter {
       case (p, i) => range.contains(i)
     }.map {
