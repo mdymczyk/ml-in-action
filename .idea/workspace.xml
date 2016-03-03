@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f151347e-becb-4719-a8db-c7026fc70954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/optimizer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/optimizer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/OptimizerTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/OptimizerTest.scala" />
     </list>
     <ignored path="ml-in-action.iws" />
@@ -38,13 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OptimizerTest.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/OptimizerTest.scala">
+      <file leaf-file-name="optimizer.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/optimizer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="183">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding>
-                <element signature="e#47#79#0" expanded="true" />
+                <element signature="e#47#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +60,9 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,10 +79,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/nlp/Parser.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/email/ham/6.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/dataset/logisticregression/testSet.txt" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/Dataset.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/DatasetTest.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/optimizer.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/OptimizerTest.scala" />
       </list>
@@ -853,7 +857,7 @@
       <workItem from="1456021773122" duration="1465000" />
       <workItem from="1456551769837" duration="13613000" />
       <workItem from="1456830745510" duration="4729000" />
-      <workItem from="1457010815597" duration="2247000" />
+      <workItem from="1457010815597" duration="3458000" />
     </task>
     <servers />
   </component>
@@ -864,11 +868,11 @@
     <history-entry file="OptimizerTest - 2016.03.03 at 23h 33m 02s.xml">
       <configuration name="OptimizerTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="OptimizerTest_Gradient_ascent - 2016.03.01 at 21h 33m 43s.xml">
-      <configuration name="OptimizerTest.Gradient ascent" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="OptimizerTest - 2016.03.03 at 23h 37m 05s.xml">
+      <configuration name="OptimizerTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="OptimizerTest_Gradient_ascent - 2016.03.01 at 21h 36m 24s.xml">
-      <configuration name="OptimizerTest.Gradient ascent" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="OptimizerTest - 2016.03.04 at 00h 51m 16s.xml">
+      <configuration name="OptimizerTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="OptimizerTest_Gradient_ascent - 2016.03.01 at 21h 36m 43s.xml">
       <configuration name="OptimizerTest.Gradient ascent" configurationId="ScalaTestRunConfiguration" />
@@ -890,7 +894,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51912000" />
+    <option name="totallyTimeSpent" value="53123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -908,6 +912,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26640624" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -917,7 +922,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -947,7 +951,13 @@
         <state relative-caret-position="225">
           <caret line="16" column="96" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
           <folding>
-            <element signature="e#47#79#0" expanded="true" />
+            <marker date="1457020298000" expanded="true" signature="54:121" placeholder="..." />
+            <marker date="1457020298000" expanded="true" signature="123:165" placeholder="/**...*/" />
+            <marker date="1457020298000" expanded="true" signature="217:906" placeholder="{...}" />
+            <marker date="1457020298000" expanded="true" signature="255:300" placeholder="(...)" />
+            <marker date="1457020298000" expanded="true" signature="328:485" placeholder="(...)" />
+            <marker date="1457020298000" expanded="true" signature="524:691" placeholder="(...)" />
+            <marker date="1457020298000" expanded="true" signature="739:904" placeholder="(...)" />
           </folding>
         </state>
       </provider>
@@ -957,21 +967,21 @@
         <state relative-caret-position="900">
           <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
           <folding>
-            <marker date="1456831507000" expanded="true" signature="41:149" placeholder="..." />
-            <marker date="1456831507000" expanded="true" signature="151:194" placeholder="/**...*/" />
-            <marker date="1456831507000" expanded="true" signature="230:2430" placeholder="{...}" />
-            <marker date="1456831507000" expanded="true" signature="277:493" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="559:1019" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="603:746" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="607:745" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1057:1431" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1457:2316" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1510:1687" placeholder="{...}" />
-            <marker date="1456831507000" expanded="true" signature="1524:1679" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1842:1888" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1893:1984" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="2033:2146" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="2055:2145" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="41:149" placeholder="..." />
+            <marker date="1457020076000" expanded="true" signature="151:194" placeholder="/**...*/" />
+            <marker date="1457020076000" expanded="true" signature="230:2437" placeholder="{...}" />
+            <marker date="1457020076000" expanded="true" signature="277:493" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="559:1019" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="603:746" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="607:745" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1057:1431" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1457:2323" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1510:1687" placeholder="{...}" />
+            <marker date="1457020076000" expanded="true" signature="1524:1679" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1849:1895" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1900:1991" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="2040:2153" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="2062:2152" placeholder="(...)" />
           </folding>
         </state>
       </provider>
@@ -1195,30 +1205,6 @@
             <marker date="1456831531000" expanded="true" signature="129:456" placeholder="{...}" />
             <marker date="1456831531000" expanded="true" signature="266:454" placeholder="..." />
             <marker date="1456831531000" expanded="true" signature="364:454" placeholder="(...)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="66" column="89" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="89" />
-          <folding>
-            <marker date="1456831507000" expanded="true" signature="41:149" placeholder="..." />
-            <marker date="1456831507000" expanded="true" signature="151:194" placeholder="/**...*/" />
-            <marker date="1456831507000" expanded="true" signature="230:2430" placeholder="{...}" />
-            <marker date="1456831507000" expanded="true" signature="277:493" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="559:1019" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="603:746" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="607:745" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1057:1431" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1457:2316" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1510:1687" placeholder="{...}" />
-            <marker date="1456831507000" expanded="true" signature="1524:1679" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1842:1888" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="1893:1984" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="2033:2146" placeholder="(...)" />
-            <marker date="1456831507000" expanded="true" signature="2055:2145" placeholder="(...)" />
           </folding>
         </state>
       </provider>
@@ -1697,27 +1683,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/optimizer.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="391">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <marker date="1457015785000" expanded="true" signature="71:113" placeholder="/**...*/" />
-            <marker date="1457015785000" expanded="true" signature="131:1274" placeholder="{...}" />
-            <marker date="1457015785000" expanded="true" signature="252:707" placeholder="{...}" />
-            <marker date="1457015785000" expanded="true" signature="551:682" placeholder="{...}" />
-            <marker date="1457015785000" expanded="true" signature="783:1271" placeholder="{...}" />
-            <marker date="1457015785000" expanded="true" signature="1096:1255" placeholder="{...}" />
+            <marker date="1457020076000" expanded="true" signature="41:149" placeholder="..." />
+            <marker date="1457020076000" expanded="true" signature="151:194" placeholder="/**...*/" />
+            <marker date="1457020076000" expanded="true" signature="230:2437" placeholder="{...}" />
+            <marker date="1457020076000" expanded="true" signature="277:493" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="559:1019" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="603:746" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="607:745" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1057:1431" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1457:2323" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1510:1687" placeholder="{...}" />
+            <marker date="1457020076000" expanded="true" signature="1524:1679" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1849:1895" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="1900:1991" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="2040:2153" placeholder="(...)" />
+            <marker date="1457020076000" expanded="true" signature="2062:2152" placeholder="(...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/util/Random.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+          <folding>
+            <marker date="1435004230000" expanded="false" signature="0:524" placeholder="/.../" />
+            <marker date="1435004230000" expanded="false" signature="561:750" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="752:793" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="868:4818" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="1216:1344" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="1398:1485" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="1522:1547" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="1551:1698" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="1749:1895" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="1943:2129" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="2184:2308" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="2350:2538" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="2587:2712" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="2757:3182" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="3215:3397" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="3238:3349" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="3401:3504" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="3539:3625" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="3679:3809" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="3920:4196" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="3994:4069" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="4108:4161" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="4427:4570" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="4606:4815" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="4637:4774" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="4820:4962" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="4992:5076" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/OptimizerTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="26" column="88" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
           <folding>
-            <element signature="e#47#79#0" expanded="true" />
+            <marker date="1457020298000" expanded="true" signature="54:121" placeholder="..." />
+            <marker date="1457020298000" expanded="true" signature="123:165" placeholder="/**...*/" />
+            <marker date="1457020298000" expanded="true" signature="217:906" placeholder="{...}" />
+            <marker date="1457020298000" expanded="true" signature="255:300" placeholder="(...)" />
+            <marker date="1457020298000" expanded="true" signature="328:485" placeholder="(...)" />
+            <marker date="1457020298000" expanded="true" signature="524:691" placeholder="(...)" />
+            <marker date="1457020298000" expanded="true" signature="739:904" placeholder="(...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/optimizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <element signature="e#47#69#0" expanded="true" />
           </folding>
         </state>
       </provider>

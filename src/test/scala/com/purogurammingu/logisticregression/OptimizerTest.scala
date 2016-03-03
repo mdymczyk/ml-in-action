@@ -18,7 +18,12 @@ class OptimizerTest extends FunSuite with Matchers {
   }
 
   test("Stochastic gradient ascent") {
-    val res = optimizer.stochasticGradientAscent(Dataset.load.toSeq)
+    val res = optimizer.stochasticGradientAscent0(Dataset.load.toSeq)
     res should be(DenseVector(0.9639510048159127, 0.9826865994733246, 0.49153885858722196))
+  }
+
+  test("Improved stochastic gradient ascent") {
+    val res = optimizer.stochasticGradientAscent(Dataset.load.toSeq)
+    res should be(DenseVector(13.623722900658205, 1.1613102976486815, -1.809595008405913))
   }
 }
