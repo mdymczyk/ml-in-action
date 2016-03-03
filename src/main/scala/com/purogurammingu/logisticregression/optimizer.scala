@@ -30,8 +30,8 @@ object optimizer {
     val n = dataSet.head.features.length
     val m = dataSet.size
     var weights = DenseVector.ones[Double](n)
-    for (i <- 1 to m) {
-      val row: DenseVector[Double] = DenseVector(data(i): _*)
+    for (i <- 0 until m) {
+      val row = data(i,::).t
       val h = sigmoid(sum(row :* weights))
       val error = labels(i) - h
       weights = weights + alpha * (row * error)
