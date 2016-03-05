@@ -9,10 +9,10 @@ import scala.util.Random
   */
 object Dataset {
 
-  def load(file: String) = {
+  def load(file: String): Iterator[Array[LabeledPoint]] = {
     Source.fromFile(getClass.getResource(file).getPath).getLines().map { line =>
       line.stripLineEnd.split("\t").map { data =>
-        LabeledPoint(Point(data(0), data(1)), data(2))
+        LabeledPoint(Vector(data(0).toDouble, data(1).toDouble), data(2))
       }
     }
   }
@@ -29,6 +29,4 @@ object Dataset {
 
 }
 
-case class Point(val x: Int, val y: Int)
-
-case class LabeledPoint(val pts: Point, val label: Int)
+case class LabeledPoint(val pt: Vector[Double], val label: Int)
