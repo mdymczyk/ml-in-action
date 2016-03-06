@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f151347e-becb-4719-a8db-c7026fc70954" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/adaboost/AdaBoost.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/adaboost/AdaBoost.scala" />
     </list>
     <ignored path="ml-in-action.iws" />
@@ -41,10 +40,10 @@
       <file leaf-file-name="AdaBoost.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/adaboost/AdaBoost.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+            <state relative-caret-position="269">
+              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
               <folding>
-                <element signature="e#37#94#0" expanded="true" />
+                <element signature="e#37#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -777,7 +776,7 @@
       <workItem from="1457010815597" duration="4318000" />
       <workItem from="1457084607902" duration="4294000" />
       <workItem from="1457153464308" duration="5361000" />
-      <workItem from="1457240529034" duration="2794000" />
+      <workItem from="1457240529034" duration="4051000" />
     </task>
     <servers />
   </component>
@@ -814,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66432000" />
+    <option name="totallyTimeSpent" value="67689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="417" width="1280" height="379" extended-state="0" />
@@ -1260,8 +1259,8 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.11/srcs/breeze_2.11-0.12-sources.jar!/breeze/linalg/NumericOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
           <folding>
             <marker date="1452974042000" expanded="true" signature="23:584" placeholder="/.../" />
             <marker date="1452974042000" expanded="false" signature="593:755" placeholder="..." />
@@ -1343,10 +1342,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/adaboost/AdaBoost.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        <state relative-caret-position="269">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
           <folding>
-            <element signature="e#37#94#0" expanded="true" />
+            <element signature="e#37#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
