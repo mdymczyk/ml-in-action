@@ -2,24 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f151347e-becb-4719-a8db-c7026fc70954" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/adaboost/AdaBoost.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/AdaBoost.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/adaboost/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/Dataset.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/bayes/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/bayes/Dataset.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/dataset/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/dataset/Dataset.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/logisticregression/Dataset.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/logisticregression/optimizer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/logisticregression/optimizer.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/nlp/Parser.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/nlp/Parser.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/svm/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/svm/Dataset.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/svm/SVM.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/svm/SVM.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/trees/TreeClassifier.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/trees/TreeClassifier.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/adaboost/AdaBoostTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/adaboost/AdaBoostTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/bayes/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/bayes/DatasetTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/dataset/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/dataset/DatasetTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/logisticregression/DatasetTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/logisticregression/OptimizerTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/logisticregression/OptimizerTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/nlp/ParserTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/nlp/ParserTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/svm/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/svm/DatasetTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/trees/TreeClassifierTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/trees/TreeClassifierTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/valueprediction/regression/Regression.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/AdaBoost.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/adaboost/AdaBoost.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/adaboost/Dataset.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/bayes/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/bayes/Dataset.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/dataset/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/dataset/Dataset.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/logisticregression/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/logisticregression/Dataset.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/logisticregression/optimizer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/logisticregression/optimizer.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/nlp/Parser.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/nlp/Parser.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/svm/Dataset.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/svm/Dataset.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/svm/SVM.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/svm/SVM.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/trees/TreeClassifier.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/trees/TreeClassifier.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/adaboost/AdaBoostTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/adaboost/AdaBoostTest.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/bayes/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/bayes/DatasetTest.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/dataset/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/dataset/DatasetTest.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/logisticregression/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/logisticregression/DatasetTest.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/logisticregression/OptimizerTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/logisticregression/OptimizerTest.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/nlp/ParserTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/nlp/ParserTest.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/svm/DatasetTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/svm/DatasetTest.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/trees/TreeClassifierTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/trees/TreeClassifierTest.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ml-in-action.iws" />
@@ -55,13 +56,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdaBoost.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/AdaBoost.scala">
+      <file leaf-file-name="Regression.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/valueprediction/regression/Regression.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
-                <element signature="e#52#74#0" expanded="true" />
+                <element signature="e#54#101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +106,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/purogurammingu/adaboost/AdaBoostTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/adaboost/AdaBoost.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/AdaBoost.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/adaboost/AdaBoost.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/puroguramingu/valueprediction/regression/Regression.scala" />
       </list>
     </option>
   </component>
@@ -287,7 +290,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classification" />
+              <option name="myItemId" value="puroguramingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regression" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="puroguramingu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -769,7 +802,7 @@
       <workItem from="1457084607902" duration="4294000" />
       <workItem from="1457153464308" duration="5361000" />
       <workItem from="1457240529034" duration="5110000" />
-      <workItem from="1457523846459" duration="103000" />
+      <workItem from="1457523846459" duration="1174000" />
     </task>
     <servers />
   </component>
@@ -806,11 +839,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68851000" />
+    <option name="totallyTimeSpent" value="69922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -820,7 +853,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28359374" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28359374" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -858,27 +891,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/bayes/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/bayes/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/bayes/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar!/scala/package.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -914,14 +926,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/dataset/Dataset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/dataset/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/trees/TreeClassifier.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/trees/TreeClassifier.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -935,14 +947,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/trees/TreeClassifierTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/trees/TreeClassifierTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/nlp/ParserTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/nlp/ParserTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
@@ -984,7 +996,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/nlp/Parser.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/nlp/Parser.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
@@ -1033,7 +1045,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/bayes/Dataset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/bayes/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
@@ -1047,7 +1059,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/logisticregression/Dataset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/logisticregression/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -1068,14 +1080,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/dataset/DatasetTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/dataset/DatasetTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/logisticregression/DatasetTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/logisticregression/DatasetTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
@@ -1096,7 +1108,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/bayes/DatasetTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/bayes/DatasetTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
@@ -1110,28 +1122,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/logisticregression/OptimizerTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/logisticregression/OptimizerTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="88" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/svm/DatasetTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/svm/DatasetTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/svm/Dataset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/svm/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/logisticregression/optimizer.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/logisticregression/optimizer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1159,7 +1171,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/svm/SVM.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/svm/SVM.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
@@ -1173,7 +1185,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/Dataset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/adaboost/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
@@ -1187,7 +1199,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/purogurammingu/classification/adaboost/AdaBoostTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/puroguramingu/classification/adaboost/AdaBoostTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1208,12 +1220,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/purogurammingu/classification/adaboost/AdaBoost.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/classification/adaboost/AdaBoost.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="721">
           <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
           <folding>
-            <element signature="e#52#74#0" expanded="true" />
+            <marker date="1457524022000" expanded="true" signature="58:204" placeholder="..." />
+            <marker date="1457524022000" expanded="true" signature="206:248" placeholder="/**...*/" />
+            <marker date="1457524022000" expanded="true" signature="265:3143" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="317:382" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="506:1094" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="643:1077" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="690:858" placeholder="..." />
+            <marker date="1457524022000" expanded="true" signature="904:1071" placeholder="..." />
+            <marker date="1457524022000" expanded="true" signature="1201:2379" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="1438:2335" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="1608:2329" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="1662:2321" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="2089:2311" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="2484:3140" placeholder="{...}" />
+            <marker date="1457524022000" expanded="true" signature="2734:3136" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/collection/IndexedSeqOptimized.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
+          <folding>
+            <marker date="1435004230000" expanded="false" signature="0:524" placeholder="/.../" />
+            <marker date="1435004230000" expanded="false" signature="567:635" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="637:898" placeholder="/**...*/" />
+            <marker date="1435004230000" expanded="true" signature="977:7515" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="1041:1056" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="1122:1205" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="1283:1367" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="1677:1758" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="1848:1922" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="2012:2088" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="2756:3076" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="2767:3076" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="2807:3019" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="3198:3361" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="3434:3702" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="4888:5130" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="4899:5130" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="4939:5081" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="4984:5081" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="5222:5388" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="5576:5673" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="5812:5895" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="5975:6065" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="6112:6255" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="6317:6516" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="6341:6516" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="6434:6512" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="6445:6485" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="6602:7128" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="6613:7128" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="6653:6864" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="6885:7124" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="7199:7513" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="7210:7513" placeholder="{...}" />
+            <marker date="1435004230000" expanded="true" signature="7250:7468" placeholder="..." />
+            <marker date="1435004230000" expanded="true" signature="7318:7468" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.11/srcs/breeze_2.11-0.12-sources.jar!/breeze/linalg/Matrix.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+          <folding>
+            <marker date="1452974042000" expanded="true" signature="22:583" placeholder="/.../" />
+            <marker date="1452974042000" expanded="false" signature="592:940" placeholder="..." />
+            <marker date="1452974042000" expanded="true" signature="942:968" placeholder="/**...*/" />
+            <marker date="1452974042000" expanded="true" signature="1109:1241" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="1324:4476" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="1428:1459" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="1624:2025" placeholder="..." />
+            <marker date="1452974042000" expanded="true" signature="1644:2025" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="2474:3957" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="2959:3187" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="3062:3126" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="3329:3803" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="3521:3797" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="3551:3716" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="3604:3706" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="3749:3789" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="3830:3936" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="4116:4181" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="4299:4473" placeholder="..." />
+            <marker date="1452974042000" expanded="true" signature="4308:4473" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="4341:4436" placeholder="..." />
+            <marker date="1452974042000" expanded="true" signature="4693:6679" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="5224:5821" placeholder="..." />
+            <marker date="1452974042000" expanded="true" signature="5238:5821" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="5561:5627" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="5920:6296" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="5981:6292" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="6225:6285" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="6369:6677" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="6411:6673" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="6612:6667" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="6726:8942" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="6919:7025" placeholder="/**...*/" />
+            <marker date="1452974042000" expanded="true" signature="7126:7180" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="7439:7558" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="7517:7548" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="7650:7689" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="8015:8149" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="8238:8369" placeholder="..." />
+            <marker date="1452974042000" expanded="true" signature="8275:8369" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="8320:8363" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="8417:8572" placeholder="..." />
+            <marker date="1452974042000" expanded="true" signature="8453:8572" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="8577:8750" placeholder="/.../" />
+            <marker date="1452974042000" expanded="true" signature="8836:8935" placeholder="{...}" />
+            <marker date="1452974042000" expanded="true" signature="8877:8931" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/puroguramingu/valueprediction/regression/Regression.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#54#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
